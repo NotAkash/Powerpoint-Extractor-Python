@@ -10,7 +10,7 @@ Put .pptx file in the same folder as extractorPPT.py and edit input/output file 
 You can also try it by the sample presentations given
 ## ToDo
 
-1. New paragraph by new bullet not end of line
+1. ~New paragraph by new bullet not end of line~
 2. Bold/alter formatting (may have to go from .txt to .doc??) 
 3. Automatically turn to PDF
 4. Automate all ".PPTX" files in directory, using some linux magic and turning pyton file to an executable script
