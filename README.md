@@ -6,11 +6,16 @@ Version 1.2 will hopefully get better at seperating header/body text
 
 ## How To Use
 
-Put .pptx file in the same folder as extractorPPT.py and edit input/output file names. Then run script
+Put .pptx file in the same folder as extractorPPT.py and edit input/output file names (Output support for markdown file [.md]). Then run script
 You can also try it by the sample presentations given
 ## ToDo
 
 1. ~New paragraph by new bullet not end of line~
-2. Bold/alter formatting (may have to go from .txt to .doc??) 
+2. ~Bold/alter formatting (may have to go from .txt to something else?)~
 3. Automatically turn to PDF
 4. Automate all ".PPTX" files in directory, using some linux magic and turning pyton file to an executable script
+5. ~Image support~
+
+## Documentation for libraries
+
+[Python-PPTX Dogs](https://python-pptx.readthedocs.io/en/latest/api/shapes.html)
