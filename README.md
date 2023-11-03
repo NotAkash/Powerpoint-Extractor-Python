@@ -1,8 +1,7 @@
 # Python PPT Notes Extractor: A 3AM Conconction
 ## Motivation
 In order to avoid having to manually copy paste notes into my e-notebook for courses with slides upto 60 pages. And thankfully because I get access to .pptx
-I decided to make a script that will (hopefully) take text from each slide, append it to a .txt file. 
-Version 1.2 will hopefully get better at seperating header/body text
+I decided to make a script that will take text from each slide, format it properly (bold/bullet point) and append it to a .md file. 
 
 ## How To Use
 
