@@ -1,7 +1,5 @@
 """
-In order to avoid having to manually copy paste notes into my e-notebook for courses with slides upto 60 pages. And thankfully because I get access to .pptx
-I decided to make a script that will (hopefully) take text from each slide, append it to a .txt file. 
-Version 1.2 will hopefully get better at seperating header/body text
+Make sure to pip install python-pptx 
 """
 import os
 from pptx import Presentation
