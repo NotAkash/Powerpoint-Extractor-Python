@@ -15,7 +15,7 @@ def extractPPT(pptFile, outputDir="Notes.md"):
     text_file = outputDir
     # Create template
     file = open(text_file,"w",encoding="utf-8")
-    file.write("<span style='color: #f2cf4a; font-family: Calibri;'></span>")
+    file.write("<span style='font-family: Calibri;'>\n")
     file.close()
 
 
@@ -55,10 +55,11 @@ def extractPPT(pptFile, outputDir="Notes.md"):
                     with open(imgFilePath, "wb") as imgFile:
                         imgFile.write(imgByte)
                     file.write(f"![Image]({imgFilePath})\n")
+    file.write("</span>")
     file.close()
 
 
 if __name__ == "__main__":
-    pptFile = "W8.pptx"  # Replace with your PowerPoint file
-    outputDir = "W8.md"  # Replace with your desired output directory
+    pptFile = "W7.pptx"  # Replace with your PowerPoint file
+    outputDir = "W7.md"  # Replace with your desired output directory
     extractPPT(pptFile, outputDir)
